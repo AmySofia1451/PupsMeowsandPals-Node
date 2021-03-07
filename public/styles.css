@@ -270,7 +270,7 @@ font-weight: bolder;
   font-size: 5rem;
 }
 
-/* polaroid ? */
+/* polaroid */
  div.polaroid {
   width: 80%;
   background-color: white;
@@ -290,4 +290,37 @@ div.container {
 
 }
 
-/* polaroid */
+/* polaroid end*/
+
+
+
+
+
+/* Mobile Version */
+
+@media query (max-width: 1300px){
+
+  h1 {
+    font-family: "Gotu";
+    font-size: 72px;
+    text-align: center;
+  }
+
+  h2 {
+    font-family: "Suranna";
+    font-size: 14px;
+    font-weight:400;
+    text-align: center;
+  }
+
+  p, body {
+    font-family: "Suranna";
+    font-size: 12px;
+  }
+
+
+
+
+
+
+}
