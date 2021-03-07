@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title> Pups Meows and Pals Pet Sitting</title>
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Gotu&family=Suranna&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <script src="https://use.fontawesome.com/releases/v5.13.1/js/all.js">
+  </script>
+  <!-- Bootstrap Javascipt and CSS -->
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+
+  <!-- CSS style sheet -->
+
+  <link rel="stylesheet" href="styles.css">
+
+
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-expand-lg" id="home">
+    <a class="navbar-brand" href="index.html">Pups Meows and Pals</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html#home" id="navlinkButtons">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html#Services" id="navlinkButtons">Types of Service <span class="sr-only">(current)</span></a>
+        </li><li class="nav-item active">
+          <a class="nav-link" href="index.html#service-areas" id="navlinkButtons">Service Areas <span class="sr-only">(current)</span></a>
+        </li><li class="nav-item active">
+          <a class="nav-link" href="index.html#pricing" id="navlinkButtons">Pricing <span class="sr-only">(current)</span></a>
+        </li>
+      </li><li class="nav-item active">
+        <a class="nav-link" href="policies.html" id="navlinkButtons">Policies <span class="sr-only">(current)</span></a>
+      </li>
+        <li class="nav-item">
+          <a href="contactform.html"><button type="button" name="button" class="btn contactButtonNav">Contact Us!</button></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- form start -->
+  <section id="contactinfo">
+
+
+    <div class="row">
+
+      <div class="col-7">
+        <div class="contactTitle">
+        <h1>Contact Us Today for a<strong> Free </strong>Meet and Greet!</h1>
+        <h2>All Pet Parents Welcome!</h2>
+
+        <p>A free consultation will be provided prior
+                      to any service to meet with you and your pets! Behavioral needs, feedings,
+                      medications, health, etc. may be discussed at this time.</p>
+          </div>
+        <form>
+          <div class="form-row">
+            <div class="col-6">
+              <label for="validationDefault01">Your Name</label>
+              <input name="clientName" type="text" class="form-control" id="validationDefault01" value="" required>
+            </div>
+            <div class="form-row">
+              <div class="col-6">
+                <label for="validationDefault01">Your Email</label>
+                <input name="clientEmail" type="text" class="form-control" id="validationDefault01" value="" required>
+              </div>
+            <div class="col-6">
+              <label for="validationDefault02">Your phone number</label>
+              <input type="phone" class="form-control" id="validationDefault02" value="" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="col-4">
+              <label for="validationDefault03">Where are you located?</label>
+              <input type="text" class="form-control" id="validationDefault03" placeholder="City" required>
+            </div>
+
+            <div class="col-4">
+              <label for="validationDefault04">How many pets need our care?</label>
+              <select class="custom-select" required>
+                <option selected>Choose..</option>
+                <option value="under1">1</option>
+                <option value="youngAdult">2</option>
+                <option value="senior">3</option>
+                <option value="multiple">4+</option>
+              </select>
+            </div>
+
+            <div class="col-4">
+              <label for="validationDefault04">How old is your pet?</label>
+              <select class="custom-select" required>
+                <option selected>Choose Age:</option>
+                <option value="under1">Under 1 years old</option>
+                <option value="youngAdult">Young/Adult</option>
+                <option value="senior">Senior</option>
+                <option value="multiple">I have multiple pets needing care</option>
+              </select>
+            </div>
+
+            <div class="col-4">
+              <label for="validationDefault04">What service are you interested in?</label>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="defaultCheck1" value="">
+                <label class="form-check-label" for="defaultCheck1">
+                  Dog Walks
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="defaultCheck2" value="">
+                <label class="form-check-label" for="defaultCheck2">
+                  Drop-In Visits
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="defaultCheck3" value="">
+                <label class="form-check-label" for="defaultCheck3">
+                  Overnight Sitting
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="defaultCheck4" value="">
+                <label class="form-check-label" for="defaultCheck4">
+                  Kitty and other Critter Care
+                </label>
+              </div>
+              <div class="form-check">
+  <input class="form-check-input" type="checkbox" name="defaultCheck5" value="">
+  <label class="form-check-label" for="defaultCheck5">
+    Other (Please Specify):
+  </label>
+  <input type="text" name="otherCare" value="">
+</div>
+            </div>
+
+            <div class="col-7 form-group">
+              <label for="exampleFormControlTextarea1">Anything else you'd like us to know?</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
+            </div>
+
+            <!-- meet and greet calendar -->
+
+          </div>
+
+        <h5>*** A $15 Fee may apply if you are outside of our
+          <button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModal">
+          <strong> Service Areas </strong>
+          </button>
+          or for more than one Meet & Greet Session.***</h5>
+
+          <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+              <label class="form-check-label" for="invalidCheck2">
+                Agree to terms and conditions
+              </label>
+            </div>
+          </div>
+          <button class=class="btn btn-outline-info" type="submit">Submit form</button>
+        </form>
+      </div>
+      <div class="col-lg col-12-md">
+        <div>
+          <img class="Contact-img" src="Pics/Collague/400.jpg" alt="Baloo the birthday dog!">
+        </div>
+      </div>
+    </div>
+
+    <!-- Button trigger modal -->
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Zoom in to view our service areas!</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <iframe id="map" src="https://www.google.com/maps/d/u/1/embed?mid=1OMJxgApSqwmul3l3a84O7HqdUXKxqE43" width="480" height="480"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+  <script type="text/javascript" src="app.js">
+
+  </script>
+  <!-- form end -->
+
+</body>
+
+<footer>
+  <section id="contact">
+    <div>
+      <h1>Contact Us!</h1>
+
+      <p>
+        Phone Number: 720-644-7299
+      </p>
+      <p>
+        Email: pupsmeowsandpals@gmail.com
+      </p>
+      <p>Follow us on our social media!</p>
+      <p><a href="https://www.facebook.com/pupsmeowsandpalspetcare" target="_blank"><i class="fab fa-facebook-square contactIcons" href=""></i></a>
+        <a href="https://www.instagram.com/aussiemom104/" target="_blank"><i class="fab fa-instagram contactIcons" href=""></i></a>
+      </p>
+      <p>Pups Meows and Pals, LLC.</p>
+    </div>
+
+  </section>
+</footer>
+
+</html>

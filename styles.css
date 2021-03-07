@@ -1,0 +1,293 @@
+h1 {
+  font-family: "Gotu";
+  font-size: 4.5rem;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Suranna";
+  font-size: 2rem;
+  font-weight:400;
+  text-align: center;
+}
+
+p, body {
+  font-family: "Suranna";
+  font-size: 1.5rem;
+}
+
+body {
+  background-color: #f6f5f5;
+}
+
+#home {
+  padding-left: 10%;
+  }
+
+#navbarNavDropdown {
+  padding-right: 10%;
+  /* Dropdown text wraps when screen is less than 1282 pixels wide */
+}
+
+#Services {
+padding: 5% 10%;
+}
+
+#letter {
+  padding: 10% 10%;
+
+}
+
+#dearpetparents {
+  font-family: "Dancing Script";
+  font-size: 3.5rem;
+  padding: 0 0 5%;
+}
+
+#signedJuliana {
+  font-family: "Dancing Script";
+  font-size: 2rem;
+}
+
+#letter-img {
+  margin: 7% 20%;
+  width: 70%;
+}
+
+#pet-care {
+  text-align: center;
+}
+
+#service-areas {
+  padding: 10% 7% 10%;
+  text-align: center;
+  background-color: #8ac4d0;
+  padding-left: 7%;
+}
+
+#pricing {
+  Padding: 5% 7% 6%;
+}
+
+#contact {
+  padding: 5% 5% 2%;
+  text-align: center;
+  background-color: #28527a;
+  color: #8ac4d0;
+}
+
+#testimonials {
+  text-align: center;
+    background-color: #28527a;
+      padding: 5% 10% 3%;
+}
+
+#testimonials H1 {
+    color: #8ac4d0;
+}
+
+#pricing H1 {
+  padding-bottom: 3%;
+}
+
+#secretary {
+  width: 200px;
+  margin: 30px;
+}
+
+#dogicon {
+font-size: 150px;
+color: #8ac4d0;
+}
+
+#awardicon  {
+font-size: 150px;
+color: #8ac4d0;
+}
+
+#contactinfo {
+  padding: 5%;
+}
+
+.credentials {
+  color: #8ac4d0;
+}
+
+.btn-dark {
+  color: #8ac4d0;
+  background-color: #28527a;
+  text-decoration: none;
+  margin-top: 2.5%;
+}
+
+.btn-dark:hover {
+  background-color: #fbeeac;
+  color:#28527a;
+}
+
+.btn-light {
+  color: #8ac4d0;
+  background-color: #28527a;
+  text-decoration: none;
+}
+
+.btn-light:hover {
+  background-color: #8ac4d0;
+  color:#28527a;
+  font-weight: bold;
+}
+
+
+#testimonial-controls {
+  background-color: #8ac4d0;
+  padding: 3%;
+  margin: 3%;
+}
+
+#contactinfo {
+  padding: 5%;
+}
+
+#policiesText {
+  padding: 60px 40px;
+  margin: 50px 5% 0;
+}
+
+#policies {
+  margin-top: 100px;
+}
+
+.contactButtonNav {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #28527a;
+  padding: 10px;
+  background-color: #8ac4d0
+}
+
+.contactButtonNav:hover {
+  background-color: #fbeeac;
+  color: #8ac4d0;
+}
+
+.FreeMeetCard {
+  background-color: #fbeeac;
+}
+
+.servicePriceCards {
+  background-color: #8ac4d0;
+}
+
+.Contact-img {
+  max-width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+.navbar {
+  background-color: #28527a;
+}
+
+.map-icon {
+  font-size: 100px;
+  margin-top: 2%;
+  margin-bottom: 2.5%;
+}
+
+.Collague-home {
+  background-image: url("Pics/placeholder2-1.png");
+  width: 100%;
+  background-size: cover;
+  padding: 11% 0 29%;
+  color: black;
+}
+
+.collague-text {
+  margin-left: 2%;
+  justify-content: center;
+  text-shadow: 2px 2px white;
+  opacity: 150%;
+}
+
+.transparentTextbg{
+  background-color: white;
+  opacity: 50%;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  color: #8ac4d0;
+}
+
+.navbar-brand:hover {
+  color: #8ac4d0;
+}
+
+.contactIcons {
+  font-size: 2.5rem;
+  color: #8ac4d0;
+  margin: 7px;
+  }
+
+  .contactIcons:hover {
+    color: white;
+  }
+
+.carousel-inner{
+margin:auto;
+}
+
+.testimonial-text {
+  padding: 0 10% 2%;
+  text-align: center;
+
+}
+
+.card {
+  margin: auto;
+  margin-top: 2%;
+  text-align: center;
+}
+
+.card-header {
+font-weight: bolder;
+ font-size: 1.6rem;
+}
+
+.contactTitle {
+  margin-bottom: 50px;
+}
+
+#navlinkButtons:hover {
+  color: #f4d160;
+}
+
+#navlinkButtons {
+  color: #8ac4d0;
+}
+
+#serviceCardsText {
+  font-size: 5rem;
+}
+
+/* polaroid ? */
+ div.polaroid {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+margin: auto;
+}
+
+img {
+  width: 100%
+
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+  margin: 15px;
+
+}
+
+/* polaroid */
