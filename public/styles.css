@@ -298,7 +298,7 @@ div.container {
 
 /* Mobile Version */
 
-@media query (max-width: 1440px){
+@media query (width: 1450px){
 
   h1 {
     font-family: "Gotu";
@@ -308,14 +308,14 @@ div.container {
 
   h2 {
     font-family: "Suranna";
-    font-size: 14px;
+    font-size: 18px;
     font-weight:400;
     text-align: center;
   }
 
   p, body {
     font-family: "Suranna";
-    font-size: 12px;
+    font-size: 16px;
   }
 
 
