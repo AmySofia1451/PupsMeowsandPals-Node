@@ -303,20 +303,20 @@ div.container {
 
   h1 {
     font-family: "Gotu";
-    font-size: 72px;
+    font-size: 3rem
     text-align: center;
   }
 
   h2 {
     font-family: "Suranna";
-    font-size: 18px;
+    font-size: 1rem;
     font-weight:400;
     text-align: center;
   }
 
   p, body {
     font-family: "Suranna";
-    font-size: 16px;
+    font-size: 1rem;
   }
 
 
