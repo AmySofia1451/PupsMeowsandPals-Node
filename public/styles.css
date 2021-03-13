@@ -170,6 +170,10 @@ color: #8ac4d0;
   color: #8ac4d0;
 }
 
+.navbar-toggler-icon {
+  background-color: #8ac4d0;
+}
+
 .FreeMeetCard {
   background-color: #fbeeac;
 }
@@ -268,7 +272,6 @@ font-weight: bolder;
 
 #navlinkButtons {
   color: #8ac4d0;
-  background-color: #f4d160;
 }
 
 #serviceCardsText {
@@ -324,9 +327,16 @@ div.container {
     font-size: 1.1rem;
   }
 
+.navbar-brand {
+  margin: 0;
+  padding: 0;
+}
+
 .googleMap {
   width: 100%;
+  align-content: center;
 }
+
 
 
 
