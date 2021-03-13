@@ -341,5 +341,10 @@ font-size: 2rem;
   width: 100%;
 }
 
+#policiesText {
+  padding: 0px 40px;
+  margin: 50px 5% 0;
+}
+
 
 }
