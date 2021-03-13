@@ -172,6 +172,7 @@ color: #8ac4d0;
 
 .navbar-toggler-icon {
   background-color: #8ac4d0;
+  background-image: url("Pics/paw-icon.jpg");
 }
 
 .FreeMeetCard {
@@ -336,7 +337,9 @@ font-size: 2rem;
   align-content: center;
 }
 
-
+.contactTitle {
+  width: 100%;
+}
 
 
 }
