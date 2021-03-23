@@ -7,7 +7,7 @@ h1 {
 h2 {
   font-family: "Suranna";
   font-size: 2rem;
-  font-weight:400;
+  font-weight: 400;
   text-align: center;
 }
 
@@ -22,7 +22,7 @@ body {
 
 #home {
   padding-left: 10%;
-  }
+}
 
 #navbarNavDropdown {
   padding-right: 10%;
@@ -30,12 +30,11 @@ body {
 }
 
 #Services {
-padding: 5% 10%;
+  padding: 5% 10%;
 }
 
 #letter {
   padding: 10% 10%;
-
 }
 
 #dearpetparents {
@@ -78,12 +77,12 @@ padding: 5% 10%;
 
 #testimonials {
   text-align: center;
-    background-color: #28527a;
-      padding: 5% 10% 3%;
+  background-color: #28527a;
+  padding: 5% 10% 3%;
 }
 
 #testimonials H1 {
-    color: #8ac4d0;
+  color: #8ac4d0;
 }
 
 #pricing H1 {
@@ -96,22 +95,26 @@ padding: 5% 10%;
 }
 
 #dogicon {
-font-size: 150px;
-color: #8ac4d0;
+  font-size: 150px;
+  color: #8ac4d0;
 }
 
-#awardicon  {
-font-size: 150px;
-color: #8ac4d0;
+#awardicon {
+  font-size: 150px;
+  color: #8ac4d0;
 }
 
 #contactinfo {
   padding: 5%;
 }
 
-div.serviceButtons {
-align-content: center;
-padding: 5px, 25px, 0;
+.serviceButtonsGroup {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.serviceButton {
+  padding: 0 25px;
 }
 
 .credentials {
@@ -127,7 +130,7 @@ padding: 5px, 25px, 0;
 
 .btn-dark:hover {
   background-color: #fbeeac;
-  color:#28527a;
+  color: #28527a;
 }
 
 .btn-light {
@@ -138,10 +141,9 @@ padding: 5px, 25px, 0;
 
 .btn-light:hover {
   background-color: #8ac4d0;
-  color:#28527a;
+  color: #28527a;
   font-weight: bold;
 }
-
 
 #testimonial-controls {
   background-color: #8ac4d0;
@@ -159,7 +161,7 @@ padding: 5px, 25px, 0;
 }
 
 #policies {
-  margin-top: 100px;
+  padding: 100px 0;
 }
 
 .contactButtonNav {
@@ -190,8 +192,8 @@ padding: 5px, 25px, 0;
 
 .Contact-img {
   max-width: 100%;
-    height: auto;
-    padding: 20px;
+  height: auto;
+  padding: 20px;
 }
 
 .navbar {
@@ -219,7 +221,7 @@ padding: 5px, 25px, 0;
   opacity: 150%;
 }
 
-.transparentTextbg{
+.transparentTextbg {
   background-color: white;
   opacity: 50%;
 }
@@ -241,20 +243,19 @@ padding: 5px, 25px, 0;
   font-size: 2.5rem;
   color: #8ac4d0;
   margin: 7px;
-  }
+}
 
-  .contactIcons:hover {
-    color: white;
-  }
+.contactIcons:hover {
+  color: white;
+}
 
-.carousel-inner{
-margin:auto;
+.carousel-inner {
+  margin: auto;
 }
 
 .testimonial-text {
   padding: 0 10% 2%;
   text-align: center;
-
 }
 
 .card {
@@ -264,8 +265,8 @@ margin:auto;
 }
 
 .card-header {
-font-weight: bolder;
- font-size: 1.6rem;
+  font-weight: bolder;
+  font-size: 1.6rem;
 }
 
 .contactTitle {
@@ -285,36 +286,26 @@ font-weight: bolder;
 }
 
 /* polaroid */
- div.polaroid {
+div.polaroid {
   width: 80%;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-margin: auto;
+  margin: auto;
 }
 
 img {
   width: 100%
-
 }
 
 div.container {
   text-align: center;
-  padding: 10px 20px;
-  margin: 15px;
-
+  padding: 10px 5px;
+  margin: 15px auto;
 }
 
 /* polaroid end*/
-
-
-
-
-
 /* Mobile Version */
-
-
-@media (max-width: 1450px){
-
+@media (max-width: 1450px) {
   h1 {
     font-family: "Gotu";
     font-size: 3rem;
@@ -324,7 +315,7 @@ div.container {
   h2 {
     font-family: "Suranna";
     font-size: 1.5rem;
-    font-weight:400;
+    font-weight: 400;
     text-align: center;
   }
 
@@ -333,23 +324,22 @@ div.container {
     font-size: 1.1rem;
   }
 
-.navbar-brand {
-font-size: 2rem;
-}
+  .navbar-brand {
+    font-size: 2rem;
+  }
 
-.googleMap {
-  width: 100%;
-  align-content: center;
-}
+  .googleMap {
+    width: 100%;
+    margin:auto;
+    align-content: center;
+  }
 
-.contactTitle {
-  width: 100%;
-}
+  .contactTitle {
+    width: 100%;
+  }
 
-#policiesText {
-  padding: 0px 40px;
-  margin: 50px 5% 0;
-}
-
-
+  #policiesText {
+    padding: 0px 40px;
+    margin: 50px 5% 0;
+  }
 }
